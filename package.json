@@ -1,13 +1,14 @@
 {
   "name": "torche",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Torrent file checker - verifies files in a directory against a torrent file in the same directory",
+  "repository": "git://github.com/dents/torche.git",
   "main": "torche.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fast-levenshtein": "^2.0.6",
     "parse-torrent": "^7.1.2",
