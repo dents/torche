@@ -1,0 +1,16 @@
+{
+  "name": "torche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "torche.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-levenshtein": "^2.0.6",
+    "parse-torrent": "^7.1.2",
+    "walk": "^2.3.14"
+  }
+}
