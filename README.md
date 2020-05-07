@@ -3,7 +3,7 @@ Torrent file checker - verifies files in a directory against a torrent file in t
 
 Useful when you get files from a questionable source. For example, suppose your internet at home is extremely slow so you end up getting a Linux ISO on a USB drive from a shady "friend". Your would like to make sure the ISO has not been tampered with:
 
-0. Install torche: `npm i torche -g` (make sure you have npm [set up to install globals properly.](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally))
+0. Install torche: `npm install torche -g` (make sure you have npm [set up to install globals properly.](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally))
 1. Create a new folder, let's say Ubuntu20LTS
 2. Copy the questionable ISO in there (ubuntu-20.04-desktop-amd64.iso)
 3. Download the .torrent file into the same directory (ubuntu-20.04-desktop-amd64.iso.torrent)
